@@ -1,3 +1,4 @@
+// Funções Login
 function matriz(){
     var dados = [
         {id:1, login:"Will", senha:1315},
@@ -20,10 +21,25 @@ function login(email,pass){
       }
     }
     if (encontrado == false) {
-        alert("Email ou senha inválidos");
+        alert("Email ou senha inválidos")
         
       } else {
-        alert("Login bem-sucedido!");
+        alert("Login bem-sucedido!")
       }
     
 }
+// Funções Cadastro
+function cadastro(email,pass){
+  //A Função não foi completamente implementada o alert abaixo serve apenas para testar se a função foi chamada 
+  alert("Teste cadastro" + "|" + email + "|" + pass)
+}
+
+function passver(email, pass, pass1) {
+  if (pass !== pass1) {
+    alert("As senhas não coincidem")
+  } else {
+    cadastro(email, pass)
+  }
+}
+
+
