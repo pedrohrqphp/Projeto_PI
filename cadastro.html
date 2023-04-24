@@ -48,8 +48,15 @@
                   <input type="password" class="form-control" id="pass1" required>
                 </div>
                 <button type="submit" class="btn btn-primary" onclick="return passver(document.getElementById('email').value, document.getElementById('pass').value, document.getElementById('pass1').value)">Cadastrar</button>
+                <button type="submit" class="btn btn-primary" onclick="login(document.getElementById('email').value, document.getElementById('pass').value)">Login</button>
               </form>
         </div>
       </div>
+      <script>
+        window.onload = function() {
+          init();
+        };
+      </script>
+      
 </body>
 </html>
