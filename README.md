@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logoa.png" width="200px">
+    <source media="(prefers-color-scheme: light)" srcset="logob.png" width="200px">
+    <img alt="Logo do projeto.">
+  </picture>
+</p>
+
 # Projeto PI
 Projeto integrador do curso de DSM da Fatec. O site visa implementar uma loja online com sistema de cadastro e administração simplificada e interface intuitiva.
 
