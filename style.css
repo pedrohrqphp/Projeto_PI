@@ -7,13 +7,10 @@
     color: black;
 }
 
-#wellcome {
-    width: 50px;
-}
-
-#login {
-    position: fixed;
-    right: 10px;
+.imgcarr{
+    width: 520px;
+    height: 200px;
+    margin-bottom: 50px;
 }
 
 .nav-item a {
@@ -32,4 +29,3 @@
     margin-left: 35%;
     margin-right: 35%;
 }
-
