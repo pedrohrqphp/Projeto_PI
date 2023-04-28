@@ -1,4 +1,30 @@
 /*CSS Index.html*/
+#carouselExampleCaptions h5 {
+    color: black;
+}
+
+#carouselExampleCaptions p {
+    color: black;
+}
+
+#wellcome {
+    width: 50px;
+}
+
+#login {
+    position: fixed;
+    right: 10px;
+}
+
+.nav-item a {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.nav-item:hover a {
+    background-color: rgba(128, 128, 128, 0.405);
+    border-radius: 10px;
+}
 
 /*CSS Login.html*/
 .card {
@@ -6,3 +32,4 @@
     margin-left: 35%;
     margin-right: 35%;
 }
+
