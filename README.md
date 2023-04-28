@@ -7,7 +7,7 @@
 </p>
 
 # Projeto PI
-Projeto integrador do curso de DSM da Fatec. O site visa implementar uma loja online com sistema de cadastro e administração simplificada e interface intuitiva.
+Projeto integrador do curso de DSM da Fatec Diadema - Luigi Papaiz. O site visa implementar uma loja online com sistema de cadastro, que possua administração simplificada e interface intuitiva.
 
 ## Integrantes
 - Eduardo de Paula Pestana
@@ -16,3 +16,4 @@ Projeto integrador do curso de DSM da Fatec. O site visa implementar uma loja on
 - Nickolas Augusto Albuquerque Primo
 - Pedro Henrique Costa Pereira
 - Pedro Henrique de Holanda Carvalho
+- Rodrigo Henrique dos Santos Fernandes
