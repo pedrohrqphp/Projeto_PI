@@ -6,6 +6,7 @@
   </picture>
 </p>
 
+
 # Projeto PI
 Projeto integrador do curso de DSM da Fatec Diadema - Luigi Papaiz. O site visa implementar uma loja online com sistema de cadastro, que possua administração simplificada e interface intuitiva.
 
