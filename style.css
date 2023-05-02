@@ -23,6 +23,18 @@
     border-radius: 10px;
 }
 
+#navback{
+    background: rgba(255, 255, 255, 0.555);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar-toggler{
+    position: fixed;
+    right: 20px; 
+    top: 20px;
+}
+
 /*CSS Login.html*/
 .card {
     margin-top: 5%;
