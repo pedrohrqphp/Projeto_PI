@@ -8,8 +8,7 @@
 }
 
 .imgcarr{
-    width: 520px;
-    height: 200px;
+    width: 50%;
     margin-bottom: 50px;
 }
 
@@ -39,6 +38,16 @@
     position: fixed;
     bottom: 2%;
     right: 1%;
+}
+
+#index-content{
+    text-align: justify;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 /*CSS Login.html*/
