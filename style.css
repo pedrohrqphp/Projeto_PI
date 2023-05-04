@@ -28,7 +28,7 @@
 #wpp{
     position: fixed;
     bottom: 2%;
-    right: 1%;
+    right: 2%;
 }
 
 #index-content{
@@ -42,7 +42,7 @@
 }
 
 footer{
-    padding: 200px;
+    padding-top: 200px;
     background-color: rgb(0, 118, 253);
 }
 
