@@ -48,7 +48,6 @@ footer{
 
 /*CSS Login.html*/
 .card {
-    margin-top: 5%;
-    margin-left: 35%;
-    margin-right: 35%;
+    width: 300px;
+    margin: 40px auto auto auto;
 }
