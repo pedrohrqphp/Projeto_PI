@@ -31,7 +31,7 @@
     right: 2%;
 }
 
-#index-content{
+p{
     text-align: justify;
     padding-top: 4%;
     padding-bottom: 4%;
@@ -44,6 +44,30 @@
 footer{
     padding-top: 200px;
     background-color: rgb(0, 118, 253);
+}
+
+.navbar-nav{
+    font-family: 'Comfortaa';
+}
+
+.titleclass{
+    font-family: 'Comfortaa';
+}
+
+.textclass{
+    font-family: 'Exo2';
+}
+
+@font-face {
+    /*Fonte para títulos*/
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-Regular.ttf');
+}
+
+@font-face {
+    /*Fonte para textos*/
+    font-family: 'Exo2';
+    src: url('/fonts/Exo2-Regular.ttf');
 }
 
 /*CSS Login.html*/
