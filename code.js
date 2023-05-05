@@ -6,18 +6,7 @@ function matriz(){
         {id:2, login:"Black", senha:1111},
         {id:3, login:"Sandra", senha:2020}    
     ]
-    const dadosJson = JSON.stringify(dados);
-    fetch("dados.json", {
-      method: "PUT",
-      body: dadosJson
-    })
-      .then(response => {
-        console.log("Dados gravados com sucesso");
-      })
-      .catch(error => {
-        console.error("Erro ao gravar dados", error);
-      });
-
+    
     console.log(dados)
 
     return dados
@@ -63,23 +52,3 @@ function passver(email, pass, pass1) {
     cadastro(email, pass)
   }
 }
-
-function init(){
-  fetch("dados.json")
-  .then(response => {
-    if (response.ok) {
-      return response.json();
-    } else {
-      throw new Error("Não foi possível carregar os dados");
-    }
-  })
-  .then(dados => {
-    console.log(dados);
-  })
-  .catch(error => {
-    console.error("Erro ao carregar os dados", error);
-  });
-
-
-}
-

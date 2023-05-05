@@ -31,19 +31,39 @@
     right: 2%;
 }
 
-#index-content{
+#bodycontent{
     text-align: justify;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-left: 6%;
-    margin-right: 6%;
+    padding: 4% 8%;
+    margin: 0 6%;
 }
 
 footer{
     padding-top: 200px;
     background-color: rgb(0, 118, 253);
+}
+
+.navbar-nav{
+    font-family: 'Comfortaa';
+}
+
+.titleclass{
+    font-family: 'Comfortaa';
+}
+
+.textclass{
+    font-family: 'Exo2';
+}
+
+@font-face {
+    /*Fonte para títulos*/
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-Regular.ttf');
+}
+
+@font-face {
+    /*Fonte para textos*/
+    font-family: 'Exo2';
+    src: url('/fonts/Exo2-Regular.ttf');
 }
 
 /*CSS Login.html*/
