@@ -17,4 +17,4 @@ Projeto integrador do curso de DSM da Fatec Diadema - Luigi Papaiz. O site visa 
 - Nickolas Augusto Albuquerque Primo
 - Pedro Henrique Costa Pereira
 - Pedro Henrique de Holanda Carvalho
-- Rodrigo Henrique dos Santos Fernande
+- Rodrigo Henrique dos Santos Fernandes
