@@ -50,21 +50,23 @@
       </div>
     </nav>
   </nav>
-      <div class="card">
-        <div class="card-body">
-            <form class="titleclass">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="pass">
-                </div>
-                <button type="submit" class="btn btn-primary" onclick="login(document.getElementById('email').value, document.getElementById('pass').value)">Login</button>
-                <div id="emailHelp" class="form-text">Não tem uma conta? <a href="cadastro.html">Cadastre-se!</a></div>
-            </form>
+
+  <!--Formulário-->
+  <div class="card">
+    <div class="card-body">
+      <form class="titleclass">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
         </div>
-      </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="pass">
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="login(document.getElementById('email').value, document.getElementById('pass').value)">Login</button>
+        <div id="emailHelp" class="form-text">Não tem uma conta? <a href="cadastro.html">Cadastre-se!</a></div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
