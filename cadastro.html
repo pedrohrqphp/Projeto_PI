@@ -52,23 +52,26 @@
   </nav>
 
   <!--Formulário-->
-  <div class="card">
-    <div class="card-body">
-      <form class="titleclass">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="text" class="form-control" id="email" aria-describedby="emailHelp" required>
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="pass" required>
-          <label for="exampleInputPassword1" class="form-label">Repita sua senha</label>
-          <input type="password" class="form-control" id="pass1" required>
-        </div>
-        <button type="submit" class="btn btn-primary" onclick="return passver(document.getElementById('email').value, document.getElementById('pass').value, document.getElementById('pass1').value)">Cadastrar</button>
-        <button type="submit" class="btn btn-primary" onclick="login(document.getElementById('email').value, document.getElementById('pass').value)">Login</button>
-      </form>
+  <section class="body">
+    <div class="card">
+      <div class="card-body">
+        <form class="titleclass">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="pass" required>
+            <label for="exampleInputPassword1" class="form-label">Repita sua senha</label>
+            <input type="password" class="form-control" id="pass1" required>
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="return passver(document.getElementById('email').value, document.getElementById('pass').value, document.getElementById('pass1').value)">Cadastrar</button>
+          <button type="submit" class="btn btn-primary" onclick="login(document.getElementById('email').value, document.getElementById('pass').value)">Login</button>
+        </form>
+      </div>
     </div>
-  </div>
+  </section>
+  
 </body>
 </html>

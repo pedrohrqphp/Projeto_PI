@@ -83,6 +83,10 @@ footer{
 }
 
 /*CSS Login.html*/
+.body {
+    padding: 25px;
+}
+
 .card {
     max-width: 360px;
     margin: 40px auto auto auto;
