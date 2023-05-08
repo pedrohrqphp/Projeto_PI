@@ -7,13 +7,11 @@
     "prod prod prod prod"
     ;
     grid-gap: 50px;
-   
 }
 
 #prod {
     display: inline-block;
     margin: auto;
-
 }
 
 /*CSS Index.html*/
@@ -86,6 +84,6 @@ footer{
 
 /*CSS Login.html*/
 .card {
-    width: 360px;
+    max-width: 360px;
     margin: 40px auto auto auto;
 }
