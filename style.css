@@ -1,3 +1,21 @@
+/*GRID*/
+#container {
+    margin: auto;
+
+    display: grid;
+    grid-template-areas:
+    "prod prod prod prod"
+    ;
+    grid-gap: 50px;
+   
+}
+
+#prod {
+    display: inline-block;
+    margin: auto;
+
+}
+
 /*CSS Index.html*/
 .imgcarr{
     width: 100%;
