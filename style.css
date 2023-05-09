@@ -63,15 +63,18 @@ footer{
     padding: 5px;
     text-align: center;
     color: white;
+    font-family: 'Comfortaa';
 }
 
 .link-item{
     color: white;
+    font-family: 'Comfortaa';
 }
 
 #footer-text{
     color: white;
     text-align: center;
+    font-family: 'Comfortaa';
 }
 
 @font-face {
