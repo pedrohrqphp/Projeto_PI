@@ -38,7 +38,7 @@
 }
 
 footer{
-    padding-top: 200px;
+    padding: 20px;
     background-color: rgb(0, 118, 253);
 }
 
@@ -52,6 +52,26 @@ footer{
 
 .textclass{
     font-family: 'Exo2';
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+  .grid-item {
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.link-item{
+    color: white;
+}
+
+#footer-text{
+    color: white;
+    text-align: center;
 }
 
 @font-face {
