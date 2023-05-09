@@ -71,7 +71,12 @@ footer{
 
 .link-item{
     color: white;
+    text-decoration: none;
     font-family: 'Comfortaa';
+}
+
+.link-item:hover{
+    color: rgb(0, 0, 0);
 }
 
 #footer-text{
