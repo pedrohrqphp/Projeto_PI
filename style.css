@@ -80,3 +80,11 @@ footer{
     max-width: 360px;
     margin: 40px auto auto auto;
 }
+
+/*produtos*/
+h2 {
+    color: black;
+    background-color: rgba(180, 180, 180, 0.628);
+    padding: 10px;
+    font-family: 'Comfortaa';
+}
