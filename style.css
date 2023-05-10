@@ -82,9 +82,35 @@ footer{
 }
 
 /*produtos*/
+h1 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
 h2 {
     color: black;
     background-color: rgba(180, 180, 180, 0.628);
     padding: 10px;
     font-family: 'Comfortaa';
+    text-indent: 25px;
+}
+
+#subNav {
+    margin-bottom: 25px;
+    background-color: black;
+    color: black;
+    text-align: center;
+}
+
+#subNav ul {
+    display: inline-block;
+    margin: 10px;
+}
+
+#subNav ul a {
+    color: white;
+    text-decoration: none;
 }
