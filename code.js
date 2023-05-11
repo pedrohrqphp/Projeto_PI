@@ -10,27 +10,28 @@ function matriz(){
     console.log(dados)
 
     return dados
-
 }
+
 function login(email,pass){
 
-    const db = matriz()
-    
-    var encontrado = false;
-    for (var i = 0; i < db.length; i++) {
-      if (db[i].login == email && db[i].senha == pass) {
-        encontrado = true;
-        break;
-      }
+  const db = matriz()
+  var encontrado = false;
+
+  for (var i = 0; i < db.length; i++) {
+    if (db[i].login == email && db[i].senha == pass) {
+      encontrado = true;
+      break;
     }
-    if (encontrado == false) {
-        alert("Email ou senha inválidos")
-        
-      } else {
-        alert("Login bem-sucedido!")
-      }
-    
+  }
+
+  if (encontrado == false) {
+    alert("Email ou senha inválidos")
+  } else {
+    window.location.href = "index.html"
+    alert("Login bem-sucedido!")
+  }
 }
+
 // Funções Cadastro
 function cadastro(email, pass){
   var email = document.getElementById("email").value

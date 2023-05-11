@@ -1,0 +1,310 @@
+/*Campo vazio*/
+.vz {
+    display: inline-block;
+    margin: auto;
+    max-width: 270px;
+    min-width: 200px;
+    background-color: rgba(128, 128, 128, 0.519);
+}
+
+/*Amplificador de Sirene e Alarme*/
+#amplificador {
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+
+    display: grid;
+    grid-template-areas:
+    "amp amp vz vz vz vz";
+    grid-gap: 30px;
+}
+
+#prodAmp {
+    display: inline-block;
+    margin: auto;
+    max-width: 230px;
+    min-width: 200px;
+}
+
+@media (max-width: 1350px){
+    #amplificador {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "amp amp vz vz vz";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 1180px){
+    #amplificador {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "amp amp vz vz";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 950px){
+    #amplificador {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "amp amp vz";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 720px){
+    #amplificador {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "amp amp vz";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 720px){
+    #amplificador {
+        margin: auto;
+        width: 100%;
+        padding: 15px;
+    
+        display: grid;
+        grid-template-areas:
+        "amp amp vz";
+        grid-gap: 15px;
+    }
+}
+
+@media (max-width: 660px){
+    #amplificador {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+    
+        display: grid;
+        grid-template-areas:
+        "amp amp";
+        grid-gap: 50px;
+    }
+}
+
+@media (max-width: 550px){
+    #amplificador {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "amp amp";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 490px){
+    #amplificador {
+        margin: auto;
+        width: 100%;
+        padding: 15px;
+    
+        display: grid;
+        grid-template-areas:
+        "amp amp";
+        grid-gap: 15px;
+    }
+
+    #prodAmp {
+        display: inline-block;
+        margin: auto;
+        max-width: 100%;
+        min-width: 150px;
+    }
+
+    .vz {
+        display: inline-block;
+        margin: auto;
+        max-width: 270px;
+        min-width: 150px;
+    }
+}
+
+/*Periférico Alarme de Incêndio==================================================================*/
+#periferico {
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+
+    display: grid;
+    grid-template-areas:
+    "prod prod";
+    grid-gap: 30px;
+}
+
+/*Sensor de Fumaça e Temperetura*/
+#sensor {
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+
+    display: grid;
+    grid-template-areas:
+    "prod prod prod prod prod prod";
+    grid-gap: 30px;
+}
+
+#prod {
+    display: inline-block;
+    margin: auto;
+    max-width: 270px;
+    min-width: 200px;
+}
+
+@media (max-width: 1350px){
+    #sensor {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "prod prod prod prod prod"
+        "prod prod prod prod prod";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 1180px){
+    #sensor {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "prod prod prod prod"
+        "prod prod prod prod";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 950px){
+    #sensor {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "prod prod prod"
+        "prod prod prod";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 720px){
+    #sensor {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "prod prod prod"
+        "prod prod prod";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 720px){
+    #sensor {
+        margin: auto;
+        width: 100%;
+        padding: 15px;
+    
+        display: grid;
+        grid-template-areas:
+        "prod prod prod"
+        "prod prod prod";
+        grid-gap: 15px;
+    }
+}
+
+@media (max-width: 660px){
+    #sensor {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+    
+        display: grid;
+        grid-template-areas:
+        "prod prod"
+        "prod prod"
+        "prod prod";
+        grid-gap: 50px;
+    }
+}
+
+@media (max-width: 550px){
+    #sensor {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+    
+        display: grid;
+        grid-template-areas:
+        "prod prod"
+        "prod prod"
+        "prod prod";
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 490px){
+    #sensor {
+        margin: auto;
+        width: 100%;
+        padding: 15px;
+    
+        display: grid;
+        grid-template-areas:
+        "prod prod"
+        "prod prod"
+        "prod prod";
+        grid-gap: 15px;
+    }
+
+    #prod {
+        display: inline-block;
+        margin: auto;
+        max-width: 100%;
+        min-width: 150px;
+    }
+}
+
+/*Eletrônicos, Áudio e Vídeo*/
+#eletronico {
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+
+    display: grid;
+    grid-template-areas:
+    "prod prod 0 0 0 0 0 0 0 0 0 0";
+    grid-gap: 30px;
+}
