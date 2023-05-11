@@ -83,7 +83,8 @@ footer{
 
 /*produtos*/
 h1 {
-    background-color: blue;
+    font-family: 'Comfortaa';
+    background-color: rgb(0, 118, 253);
     color: white;
     padding: 10px;
     margin: 0px;
@@ -92,16 +93,15 @@ h1 {
 
 h2 {
     color: black;
-    background-color: rgba(180, 180, 180, 0.628);
+    background-color: rgba(189, 189, 189);
     padding: 10px;
     font-family: 'Comfortaa';
     text-indent: 25px;
 }
 
 #subNav {
-    margin-bottom: 25px;
+    font-family: 'Comfortaa';
     background-color: black;
-    color: black;
     text-align: center;
 }
 
@@ -113,4 +113,8 @@ h2 {
 #subNav ul a {
     color: white;
     text-decoration: none;
+}
+
+.card-body{
+    font-family: 'Exo2';
 }
