@@ -38,7 +38,8 @@
 }
 
 footer{
-    padding-top: 200px;
+    padding-top: 30px;
+    padding-bottom: 1px;
     background-color: rgb(0, 118, 253);
 }
 
@@ -52,6 +53,37 @@ footer{
 
 .textclass{
     font-family: 'Exo2';
+}
+
+.grid-container {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: small;
+}
+
+.link-item{
+    color: white;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+}
+
+.link-item:hover{
+    color: rgb(0, 0, 0);
+}
+
+#footer-text{
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: small;
 }
 
 @font-face {
