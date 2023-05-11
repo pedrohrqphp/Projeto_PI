@@ -150,3 +150,8 @@ h2 {
 .card-body{
     font-family: 'Exo2';
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
