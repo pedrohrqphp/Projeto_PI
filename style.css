@@ -159,3 +159,11 @@ a {
 .card{
     height: 100%;
 }
+.card:hover{
+    transform:scale(1.1);
+    transition-duration: 100ms;
+}
+.subdiv_prod:hover{
+transform:rotate(1080deg) scale(5);
+transition-duration: 1050ms;
+}
