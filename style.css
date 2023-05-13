@@ -155,3 +155,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.card{
+    height: 100%;
+}
