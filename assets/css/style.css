@@ -89,13 +89,13 @@ footer{
 @font-face {
     /*Fonte para títulos*/
     font-family: 'Comfortaa';
-    src: url('/fonts/Comfortaa-Regular.ttf');
+    src: url('../fonts/Comfortaa-Regular.ttf');
 }
 
 @font-face {
     /*Fonte para textos*/
     font-family: 'Exo2';
-    src: url('/fonts/Exo2-Regular.ttf');
+    src: url('../fonts/Exo2-Regular.ttf');
 }
 
 /*CSS Login.html*/
@@ -151,19 +151,21 @@ h2 {
     font-family: 'Exo2';
 }
 
-a {
+.card{
+    height: 100%;
+}
+
+.card-text a {
     text-decoration: none;
     color: black;
 }
 
-.card{
-    height: 100%;
-}
 .card:hover{
     transform:scale(1.1);
     transition-duration: 100ms;
 }
+
 .subdiv_prod:hover{
-transform:rotate(1080deg) scale(5);
-transition-duration: 1050ms;
+    transform:scale(1.1);
+    transition-duration: 300ms;
 }
