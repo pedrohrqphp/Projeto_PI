@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+hr {
+    margin: 30px;
+}
+
+div {
+    border: solid 1px gray;
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+}
+
+button {
+    margin: 30px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-left: 30px
+}
+
+a {
+    margin: 30px;
+}
