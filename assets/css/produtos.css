@@ -3,7 +3,7 @@ h1 {
     font-family: 'Comfortaa';
     background-color: rgb(0, 118, 253);
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin: 0px;
     text-align: center;
 }
@@ -14,6 +14,10 @@ h2 {
     padding: 10px;
     font-family: 'Comfortaa';
     text-indent: 25px;
+}
+
+.posi{
+    padding-bottom: 82px;
 }
 
 #subNav {
