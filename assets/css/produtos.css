@@ -10,10 +10,12 @@ h1 {
 
 h2 {
     color: black;
-    background-color: rgba(189, 189, 189);
-    padding: 10px;
+    background-color: rgb(222, 232, 243);
+    padding: 15px;
     font-family: 'Comfortaa';
     text-indent: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #0d0e3f;
 }
 
 .posi{
@@ -57,4 +59,9 @@ h2 {
 .subdiv_prod:hover{
     transform:scale(1.1);
     transition-duration: 300ms;
+}
+
+#nav-item-login{
+    position: fixed;
+    right: 45px;
 }

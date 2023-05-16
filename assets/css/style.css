@@ -20,7 +20,13 @@
 
 .nav-item a {
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#nav-item-login{
+    position: fixed;
+    right: 45px;
 }
 
 .nav-item:hover a {
@@ -29,7 +35,7 @@
 }
 
 #navback{
-    background: rgba(255, 255, 255, 0.555);
+    background: rgb(255, 255, 255);
     backdrop-filter: blur(8px);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
