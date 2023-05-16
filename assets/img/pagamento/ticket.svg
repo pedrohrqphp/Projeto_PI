@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>boleto</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="boleto">
+            <g id="Group-59-Copy">
+                <g id="Group-2">
+                    <path d="M24,47.5 C36.9786916,47.5 47.5,36.9786916 47.5,24 C47.5,11.0213084 36.9786916,0.5 24,0.5 C11.0213084,0.5 0.5,11.0213084 0.5,24 C0.5,36.9786916 11.0213084,47.5 24,47.5 Z" id="Oval-Copy" stroke="#EEEEEE"></path>
+                    <g id="ic_boletobancario" transform="translate(14.000000, 12.000000)" fill-rule="nonzero">
+                        <g id="Group-5" transform="translate(0.500000, 0.500000)">
+                            <polygon id="Combined-Shape" fill="#5697FA" points="18.5 6.5 18.5 0.5 0.5 0.5 0.5 6.5 0.5 23.5 2.00457764 22.5 3.5 23.5 5.00457764 22.5 6.5 23.5 8.00457764 22.5 9.5 23.5 11.0045776 22.5 12.5 23.5 14.0045776 22.5 15.5 23.5 17.0045776 22.5 18.5 23.5"></polygon>
+                            <rect id="Rectangle-53" fill="#FFFFFF" x="2.5" y="13.5" width="2" height="6"></rect>
+                            <rect id="Rectangle-54" fill="#FFFFFF" x="5.5" y="13.5" width="1" height="6"></rect>
+                            <path d="M2.5,4 C2.5,3.72385763 2.71990657,3.5 2.99826741,3.5 L16.0017326,3.5 C16.2769181,3.5 16.5,3.73193359 16.5,4 L16.5,4 C16.5,4.27614237 16.2800934,4.5 16.0017326,4.5 L2.99826741,4.5 C2.72308192,4.5 2.5,4.26806641 2.5,4 L2.5,4 Z" id="Rectangle-path" fill="#0864EE"></path>
+                            <rect id="Rectangle-path" fill="#0864EE" x="2.5" y="5.5" width="8" height="1" rx="0.5"></rect>
+                            <path d="M2.5,10 C2.5,9.72385763 2.71990657,9.5 2.99826741,9.5 L16.0017326,9.5 C16.2769181,9.5 16.5,9.73193359 16.5,10 L16.5,10 C16.5,10.2761424 16.2800934,10.5 16.0017326,10.5 L2.99826741,10.5 C2.72308192,10.5 2.5,10.2680664 2.5,10 L2.5,10 Z" id="Rectangle-path" fill="#0864EE"></path>
+                            <rect id="Rectangle-55" fill="#FFFFFF" x="7.5" y="13.5" width="2" height="6"></rect>
+                            <rect id="Rectangle-55-Copy" fill="#FFFFFF" x="10.5" y="13.5" width="2" height="6"></rect>
+                            <rect id="Rectangle-55-Copy-2" fill="#FFFFFF" x="13.5" y="13.5" width="1" height="6"></rect>
+                            <rect id="Rectangle-55-Copy-3" fill="#FFFFFF" x="15.5" y="13.5" width="1" height="6"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
