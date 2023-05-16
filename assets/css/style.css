@@ -1,4 +1,19 @@
-/*CSS Index.html*/
+/*NAV BAR*/
+
+/*INDEX*/
+#pagamento {
+    background-color: rgba(128, 128, 128, 0.229);
+    border-radius: 12px;
+    margin: 30px 70px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#pagamento a {
+    text-decoration: none;
+}
+
 .imgcarr{
     width: 100%;
 }
