@@ -37,9 +37,20 @@
     margin: 0 6%;
 }
 
-footer{
-    padding-top: 30px;
-    padding-bottom: 1px;
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+    padding-top: 60px;
     background-color: rgb(0, 118, 253);
 }
 
@@ -111,61 +122,4 @@ footer{
 #cadastroForm {
     max-width: 360px;
     margin: 40px auto auto auto;
-}
-
-/*produtos*/
-h1 {
-    font-family: 'Comfortaa';
-    background-color: rgb(0, 118, 253);
-    color: white;
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-}
-
-h2 {
-    color: black;
-    background-color: rgba(189, 189, 189);
-    padding: 10px;
-    font-family: 'Comfortaa';
-    text-indent: 25px;
-}
-
-#subNav {
-    font-family: 'Comfortaa';
-    background-color: black;
-    text-align: center;
-}
-
-#subNav ul {
-    display: inline-block;
-    margin: 10px;
-}
-
-#subNav ul a {
-    color: white;
-    text-decoration: none;
-}
-
-.card-body{
-    font-family: 'Exo2';
-}
-
-.card{
-    height: 100%;
-}
-
-.card-text a {
-    text-decoration: none;
-    color: black;
-}
-
-.card:hover{
-    transform:scale(1.1);
-    transition-duration: 100ms;
-}
-
-.subdiv_prod:hover{
-    transform:scale(1.1);
-    transition-duration: 300ms;
 }
