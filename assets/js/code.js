@@ -53,3 +53,24 @@ function passver(email, pass, pass1) {
     cadastro(email, pass)
   }
 }
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var btnTopo = document.getElementById('btn-topo');
+
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 100) {
+      btnTopo.style.display = 'block';
+    } else {
+      btnTopo.style.display = 'none';
+    }
+  });
+
+  btnTopo.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
