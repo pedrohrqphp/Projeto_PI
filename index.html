@@ -12,6 +12,7 @@
 
   <!--Link do CSS-->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/grid.css">
         
   <!--Script do JavaScripr-->
   <script src="assets/js/code.js"></script>
@@ -24,115 +25,113 @@
 
 <body>
   <!--Nav Bar-->
-  <nav class="navbar sticky-top" id="navback">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="assets/img/logos/logoa.png" width="60px" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="naassets/vbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="produtos.html">Produtos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/pedrohrqphp/Projeto_PI" target="_blank">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html" id="login">Login</a>
-            </li>
-          </ul>
+  <header>
+    <nav class="navbar sticky-top" id="navback">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="assets/img/logos/logoa.png" width="60px" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="naassets/vbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="produtos.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/pedrohrqphp/Projeto_PI" target="_blank">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" id="login">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+  </header>
+
+  <main>
+    <!--Carrossel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-theme="dark">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p align="center">
+          <img src="assets/img/logos/1.png" class="imgcarr" class="d-block w-100" alt="Bem-vindo à loja" id="wellcome">
+          </p>
+        </div>
+        <div class="carousel-item">
+          <p align="center">
+          <img src="assets/img/logos/2.png" class="imgcarr" class="d-block w-100" alt="...">
+          </p>
+        </div>
+        <div class="carousel-item">
+          <p align="center">
+          <img src="assets/img/logos/3.png" class="imgcarr" class="d-block w-100" alt="...">
+          </p>
         </div>
       </div>
-    </nav>
-  </nav>
-
-  <!--Carrossel-->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-theme="dark">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <p align="center">
-        <img src="assets/img/logos/1.png" class="imgcarr" class="d-block w-100" alt="Bem-vindo à loja" id="wellcome">
-        </p>
-      </div>
-      <div class="carousel-item">
-        <p align="center">
-        <img src="assets/img/logos/2.png" class="imgcarr" class="d-block w-100" alt="...">
-        </p>
-      </div>
-      <div class="carousel-item">
-        <p align="center">
-        <img src="assets/img/logos/3.png" class="imgcarr" class="d-block w-100" alt="...">
-        </p>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
-  <!--Texto de teste-->
+    <!--Principais produtos-->
+    <h2>Os principais produtos de nossas categorias</h2>
 
-  <!--
-  <div class="textclass" id="bodycontent">
-    <h2>Mais populares</h2>
-    <section id="sensor">
-      <section id="amplificador">
-      <div class="card" id="prodAmp">
-        <img src="/img/Imgs_Produtos/CentralAmplificadorRedeSirene.png" class="card-img-top" width="20px" alt="...">
+    <section id="gridMenu">
+      <div class="card prodMenu">
+        <img src="assets/img/Imgs_Produtos/CentralAmplificadorRedeSirene.png" class="card-img-top" width="20px" alt="...">
         <div class="card-body">
           <p class="card-text"><a href="">Central Amplificador Ascael</a></p>
           <h5 class="card-title">R$ 600,00</h5>
         </div>
       </div>
-      </section>
       
-      <section id="amplificador">
-        <div class="card" id="prodAmp">
-          <img src="/img/Imgs_Produtos/BotoeiraEnderecavelMaterlo.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><a href="">Botoeira Endereçavel Ascael</a></p>
-            <h5 class="card-title">R$ 440,00</h5>
-          </div>
+      <div class="card prodMenu">
+        <img src="assets/img/Imgs_Produtos/BotoeiraEnderecavelMaterlo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"><a href="">Botoeira Endereçavel Ascael</a></p>
+          <h5 class="card-title">R$ 440,00</h5>
         </div>
-        </section>
-        <section id="sensor">
-          <div class="card" id="prod">
-            <img src="/img/Imgs_Produtos/DetectorFumacaEnderecavel.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text"><a href="">Detector de Fumaça Endereçavel Ascael</a></p>
-              <h5 class="card-title">R$ 430,00</h5>
-            </div>
-          </div>
-        </section>
-        <section id="amplificador">
-            <div class="card" id="prodAmp">
-              <img src="/img/Imgs_Produtos/CentralAmplificadorRedeSirene.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text"><a href="">Central Amplificador de Rede e Sirene Ascael</a></p>
-                <h5 class="card-title">R$ 265,00</h5>
-              </div>
-            </div>
-        </section>
+      </div>
+
+      <div class="card prodMenu">
+        <img src="assets/img/Imgs_Produtos/DetectorFumacaEnderecavel.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"><a href="">Detector de Fumaça Endereçavel Ascael</a></p>
+          <h5 class="card-title">R$ 430,00</h5>
+        </div>
+      </div>
+
+      <div class="card prodMenu">
+        <img src="assets/img/Imgs_Produtos/CentralAmplificadorRedeSirene.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"><a href="">Central Amplificador de Rede e Sirene Ascael</a></p>
+          <h5 class="card-title">R$ 265,00</h5>
+        </div>
+      </div>
     </section>
-    -->
-    
-  </div>
-  
+
+    <!--Métodos de pagamento-->
+    <div id="pagamento">
+      <a href="pagamento.html">Veja os nossos métodos de pagamento!</a>
+    </div>
+
+  </main>
   
   <!--Ícone do WhatsApp-->
   <a id="wpp" href="https://api.whatsapp.com/send?phone=5511974111995&text=Ol%C3%A1%21+estou+na+loja+B.O+-+Solu%C3%A7%C3%B5es+e+gostaria+de+mais+informa%C3%A7%C3%B5es." target="_blank">
