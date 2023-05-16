@@ -30,9 +30,26 @@ h3 {
 }
 
 p {
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 a {
     margin: 30px;
+}
+
+h1 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: inline-block;
+}
+
+.grid_mercado_pago {
+    display: flex;
+}
+
+.grid_mercado_credito {
+    display: flex;
 }
