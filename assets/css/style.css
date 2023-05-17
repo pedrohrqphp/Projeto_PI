@@ -158,3 +158,31 @@ footer {
     max-width: 360px;
     margin: 40px auto auto auto;
 }
+
+.nav-item a::before{
+    content: " ";
+    position: absolute;
+    bottom: 10px;
+    width: 0;
+    height: 1px;
+    background-color: #0b0a68;
+    transition: width 0.2s ease-in-out;
+}
+
+#navloginid:hover::before{
+    width: 45px;
+    height: 20;
+}
+
+#navhomeid:hover:before{
+    width: 48px;
+}
+
+#navprodid:hover:before{
+    width: 73px;
+}
+
+#navsobreid:hover:before{
+    width: 48px;
+    height: 40123123;
+}
