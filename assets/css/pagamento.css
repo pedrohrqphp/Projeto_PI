@@ -1,19 +1,22 @@
 * {
     padding: 0;
-    margin: 0;
+    
     font-family: sans-serif;
+}
+body{
+    margin: 0 100px ;
 }
 
 hr {
     margin: 30px;
 }
 
-div {
+/* div {
     border: solid 1px gray;
     border-radius: 12px;
     margin: 30px;
     padding: 15px;
-}
+} */
 
 button {
     margin: 30px;
@@ -42,14 +45,46 @@ h1 {
     margin-bottom: 20px;
 }
 
-img {
-    display: inline-block;
-}
-
 .grid_mercado_pago {
     display: flex;
 }
 
-.grid_mercado_credito {
-    display: flex;
+.grid_mercado_pago p {
+    margin-top: 15px;
 }
+
+.grid_mercado_credito {
+    border: solid 1px gray;
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_mercado_credito p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.grid_mercado_credito img {
+    height: 50px;
+    border-right: 2px solid rgb(245, 238, 238);
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 60px;
+}
+
+.grid_cartao_credito_2{
+    border: none;
+    margin: 0px;
+    padding: 15px;
+}
+
+
+
+
+
