@@ -35,7 +35,7 @@ function login(email,pass){
 
   else {
     alert("Login bem-sucedido!");
-    window.open("paginalivre.html");
+    window.open("index.html");
   }
 }
 
@@ -57,7 +57,7 @@ function cadastro(email, pass){
 
   alert("Cadastro realizado com sucesso!")
 
-  window.open('index.html')
+  window.open('login.html')
 }
 
 function passver(email, pass, pass1) {
