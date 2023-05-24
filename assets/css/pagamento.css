@@ -11,19 +11,13 @@ hr {
     margin: 30px;
 }
 
-/* div {
-    border: solid 1px gray;
-    border-radius: 12px;
-    margin: 30px;
-    padding: 15px;
-} */
-
 button {
     margin: 30px;
+    margin-left: 300px;
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
-    background-color: black;
+    background-color: #3483fa;
     color: white;
 }
 
@@ -78,10 +72,39 @@ h1 {
     padding-right: 60px;
 }
 
-.grid_cartao_credito_2{
+.grid_mercado_credito_2{
     border: none;
     margin: 0px;
     padding: 15px;
+}
+
+.grid_cartao_credito {
+ 
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_cartao_credito_3 {
+    display: inline;
+    margin-left: 30px;
+}
+
+
+.grid_cartao_debito {
+ 
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_cartao_debito_3 {
+    display: inline;
+    margin-left: 30px;
 }
 
 
