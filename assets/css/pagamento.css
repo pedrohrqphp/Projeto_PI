@@ -41,7 +41,10 @@ h1 {
 
 .grid_mercado_pago {
     display: flex;
+    margin-left: 45px;
 }
+
+
 
 .grid_mercado_pago p {
     margin-top: 15px;
@@ -56,12 +59,11 @@ h1 {
     flex-direction: row;
 }
 
+
 .grid_mercado_credito p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    line-height: 1mm;
+    /* margin-top: 30px; */
 }
 
 .grid_mercado_credito img {
@@ -78,6 +80,7 @@ h1 {
     padding: 15px;
 }
 
+
 .grid_cartao_credito {
  
     border-radius: 12px;
@@ -87,11 +90,25 @@ h1 {
     flex-direction: row;
 }
 
+.grid_cartao_credito_2 img {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_cartao_credito_2 p {
+    line-height: 1mm;
+}
+
 .grid_cartao_credito_3 {
     display: inline;
     margin-left: 30px;
 }
 
+.grid_cartao_credito_3 img {
+    display: inline;
+    margin-top: 15px;
+}
 
 .grid_cartao_debito {
  
@@ -102,8 +119,83 @@ h1 {
     flex-direction: row;
 }
 
+.grid_cartao_debito_2 img {
+    margin-top: 10px;
+}
+
 .grid_cartao_debito_3 {
     display: inline;
+    margin-left: 30px;
+}
+
+.grid_pix {
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_pix_2 img {
+    margin-top: 10px;
+}
+
+.grid_pix_2 p {
+    line-height: 8px;
+}
+
+.grid_pix_3  {
+    display: block;
+    margin-left: 25px;
+
+}
+
+.grid_pix_3  a{
+    display: block;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.grid_boleto_bancario {
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_boleto_bancario_2 img {
+    margin-top: 10px;
+}
+
+.grid_boleto_bancario_3  {
+    display: block;
+    margin-left: 30px;
+}
+
+.grid_conta_mercado_pago {
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_conta_mercado_pago_2 p {
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.grid_conta_mercado_pago_2 h3 {
+    line-height: 10px;
+}
+
+.grid_conta_mercado_pago img {
+    margin-top: 10px;
+}
+
+.grid_conta_mercado_pago_3 {
+    display: block;
     margin-left: 30px;
 }
 
