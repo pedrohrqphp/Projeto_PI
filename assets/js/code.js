@@ -1,15 +1,19 @@
 // Funções Login
 function matriz(){
 
-    var dados = [
-        {id:1, login:"Will", senha:1315},
-        {id:2, login:"Black", senha:1111},
-        {id:3, login:"Sandra", senha:2020}    
-    ]
-    
-    console.log(dados)
+  let dados
+  
+  if(JSON.parse(window.localStorage.getItem('tds')) != null){
+    dados = JSON.parse(window.localStorage.getItem('tds'))
+  }
 
-    return dados
+  else {
+    dados = [
+      {id:1, login:"admin", senha:123}
+    ]
+  }  
+
+  return dados
 }
 
 function login(email,pass){
@@ -18,6 +22,7 @@ function login(email,pass){
   var encontrado = false;
 
   for (var i = 0; i < db.length; i++) {
+    
     if (db[i].login == email && db[i].senha == pass) {
       encontrado = true;
       break;
@@ -25,35 +30,45 @@ function login(email,pass){
   }
 
   if (encontrado == false) {
-    alert("Email ou senha inválidos")
-  } else {
-    window.location.href = "index.html"
-    alert("Login bem-sucedido!")
+    alert("Email ou senha inválidos");
+  }
+
+  else {
+    alert("Login bem-sucedido!");
+    window.open("paginalivre.html");
   }
 }
 
 // Funções Cadastro
 function cadastro(email, pass){
+
   var email = document.getElementById("email").value
-  var senha = document.getElementById("pass").value
+  var pass = document.getElementById("pass").value
 
   var db = matriz()
-  var id = db.length + 1
 
-  db.push({id:id, login:email, senha:senha})
+  db.push({id:Date.now(),login:email,senha:pass })
+
+  let n = JSON.stringify(db);
+
+  localStorage.setItem("tds", n);
+
   console.log(db)
 
   alert("Cadastro realizado com sucesso!")
+
+  window.open('index.html')
 }
 
 function passver(email, pass, pass1) {
-  if (pass !== pass1) {
+
+  if(pass !== pass1){
     alert("As senhas não coincidem")
-  } else {
+
+  }else{
     cadastro(email, pass)
   }
 }
-
 
 
 document.addEventListener('DOMContentLoaded', function() {
